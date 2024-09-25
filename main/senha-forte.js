@@ -15,7 +15,6 @@
 
 function validarSenhaForte() {
         // Sua implementação aqui.
-        return false;
 }
 
 module.exports = {validarSenhaForte};

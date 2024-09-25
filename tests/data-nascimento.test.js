@@ -17,5 +17,13 @@ describe('Testes para fun. validarDataNascimento', ()=> {
     test('Testando um ano NÃO bissexto: f("29/02/2022") => false', () => {
         expect(validarDataNascimento("29/02/2022")).toBeFalsy();
     });
+    
+    test('Testando uma data no futuro: f("01/01/2124") => false', () => {
+        expect(validarDataNascimento("21/01/2124")).toBeFalsy();
+    });
+
+    test('Testando uma data muito antiga: f("01/01/1500") => false', () => {
+        expect(validarDataNascimento("01/01/1500")).toBeFalsy();
+    });
 
 });

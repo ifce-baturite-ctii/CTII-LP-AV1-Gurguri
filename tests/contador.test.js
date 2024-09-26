@@ -19,7 +19,7 @@ describe('Testes para a fun. contarVogais',()=>{
     });
     
     test('Teste de frase longa: f("Que delícia saborear um delicioso melão!") => 19',()=>{
-        expect(contarVogais('você')).toEqual(19);
+        expect(contarVogais('Que delícia saborear um delicioso melão!')).toEqual(19);
     });
 
 });

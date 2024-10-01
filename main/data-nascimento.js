@@ -11,6 +11,7 @@
 
 function validarDataNascimento() {
     // Sua implementação aqui.
+    return false;
 }
 
 module.exports = {validarDataNascimento};
